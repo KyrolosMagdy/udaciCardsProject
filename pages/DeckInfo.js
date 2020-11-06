@@ -18,7 +18,6 @@ class DeckInfo extends Component {
   render() {
     const { deck, navigateToAddCard, navigateToStartQuiz } = this.props;
     const deckTitle = deck.title;
-    console.log("deckTitle: ", deckTitle);
     return (
       <View>
         <Deck
